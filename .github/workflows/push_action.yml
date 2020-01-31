@@ -8,8 +8,8 @@ jobs:
     runs-on: macOS-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Build
+    - uses: actions/checkout@v1
+    - name: Run a multiline script
       run: |
         ls -altG
 #       run: swift build -v
